@@ -1,0 +1,117 @@
+@media screen
+{
+  body
+  {
+    background-color: rgba(55, 55, 55, 1);
+    text-align: center;
+  }
+
+  .textBox
+  {
+    color: black;
+    background-color: lightgrey;
+    height: 18px;
+  }
+
+  .fas
+  {
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    width: 20px;
+    height: 18px;
+  }
+
+  .mainPanel
+  {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 5px;
+  }
+  .submitButton
+  {
+    margin: 30px 0px 0px 0px;
+    background-color: lightgrey;
+  }
+
+  .error
+  {
+    color: firebrick;
+  }
+
+  .checkbox
+  {
+    color: black;
+    background-color: lightgrey;
+    height: 18px;
+    width: 18px;
+    float: left;
+    margin-left: 25px;
+  }
+
+  .tabSpace
+  {
+    margin-left: 30px;
+  }
+
+  .chatRow
+  {
+    margin: 5px;
+  }
+
+  .userName
+  {
+    color: teal;
+  }
+
+  .userText
+  {
+    color: orange;
+  }
+
+  .messageDate
+  {
+    color: purple;
+  }
+
+  #chatDiv
+  {
+    overflow-y: auto;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: black solid 3px;
+    background-color: #555555;
+    text-align: left;
+  }
+
+  #errorHeader
+  {
+    font-family: 'Permanent Marker', cursive;
+    color: firebrick;
+  }
+
+  #mainHeader
+  {
+    margin-top: 0px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+  }
+
+  #alignContent
+  {
+    display: inline-block;
+  }
+
+}
+
+@media print
+{
+  html
+  {
+    display: none;
+  }
+}
