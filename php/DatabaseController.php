@@ -235,7 +235,7 @@
          */
         private function stripSomeSymbols($inputStream)
         {
-            $outputStreams = preg_replace('/[^0-9a-zA-Z.!@#$%^&*-_]+/', '', $inputStream);
+            $outputStreams = preg_replace('/[^0-9a-zA-Z.!@#$%^&*-_\s]+/', '', $inputStream);
             return $outputStreams;
         }
     }
