@@ -119,8 +119,8 @@
          */
         private function login($parameters)
         {
-            $username = $this->stripAllSymbols($parameters['username']);
-            $password = $this->stripSomeSymbols($parameters['password']);
+            $username = $parameters['username'];
+            $password = $parameters['password'];
 
             if ($login_query = $this->connection->prepare('SELECT USER_ID, USER_PASS FROM USER WHERE USER_NAME = ? AND USER_PASS = ?'))
             {
