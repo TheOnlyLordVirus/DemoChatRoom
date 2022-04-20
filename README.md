@@ -226,7 +226,7 @@ All done!  If you've completed all of the above steps, your MariaDB
 installation should now be secure.
 ```
 
-**Login as root and Run Build_DB.sql querys on DB:**
+**Login as root and Run SampleDB.sql querys on DB:**
 ----------------------------------------------------
 ``
 mysql -pYOUR_PASS
